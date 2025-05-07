@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Issue Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+    body{
+      background-color: lightgreen;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">IssueReporter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Report Issue.html">Report Issue</a></li>
+          <li class="nav-item"><a class="nav-link active" href="Dashboard.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h2 class="mb-4">Reported Issues Dashboard</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <!-- Issue Card 1 -->
+      <div class="col">
+        <div class="card h-100">
+      
+          <div class="card-body">
+            <img src="my.JPG" style="width:35%; height: 20%;"><img src="se.JPG" style="width:20%; height: 15%;">
+            <h5>Pothole on Main Street</h5>
+            <p >There is a large pothole near the bus stop that is causing traffic issues.</p>
+            <p><strong>Location:</strong> Main Street, Block 4</p>
+            <p><strong>Submitted by:</strong> John Doe</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Issue Card 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="te.JPG" style="width:30%; height: 20%;">
+            <h5 class="card-title">Broken Streetlight</h5>
+            <p class="card-text">Streetlight not working for 2 weeks near the community park.</p>
+            <p><strong>Location:</strong> Central Park Road</p>
+            <p><strong>Submitted by:</strong> Jane Smith</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Community Issue Reporter. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
